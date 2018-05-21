@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 19.May.2018 16:23:17 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+  <class catalog="obs" name="model.Ogretimuyesi" optimistic-lock="version" table="ogretimuyesi">
+    <id name="ogretimuyesiid" type="int">
+      <column name="ogretimuyesiid"/>
+      <generator class="assigned"/>
+    </id>
+    <property name="sicilno" type="string">
+      <column name="sicilno"/>
+    </property>
+    <property name="adsoyad" type="string">
+      <column name="adsoyad"/>
+    </property>
+    <property name="sehir" type="string">
+      <column name="sehir"/>
+    </property>
+    <property name="telno" type="string">
+      <column name="telno"/>
+    </property>
+  </class>
+</hibernate-mapping>
